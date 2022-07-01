@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- * description for function main
- * goes here
+/**
+ * main - Entry point
+ * Description: 'the program's description'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
