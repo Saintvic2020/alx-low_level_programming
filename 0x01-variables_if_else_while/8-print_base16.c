@@ -1,35 +1,23 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
-
 /**
-* main - prints all the numbers of base 16 in lowercase, followed by a new line
-*
-* Return: 0
-*/
+ * main - entry oint
+ *
+ * Return: always return 0
+ */
 
 int main(void)
-
 {
-/**
-* description - Hexadecimal
-*
-* 0 1 2 3 4 5 6 7 8 9 a c d e f
-*
-*/
-
-char (ch);
-int n;
-for (n = 48; n <= 57; n++)
+unsigned char a = '0';
+int i;
+for (i = 0; i < 10; i++)
 {
-putchar(n);
+putchar (a);
+a++;
 }
-for (ch = 'a'; ch <= 'f'; ch++)
-{
-putchar(ch);
-}
-putchar(10);
+a = '1';
+for (i = 0; i < 6; i++)
+putchar('0' + a);
+a++;
+putchar('\n')
 return (0);
 }
