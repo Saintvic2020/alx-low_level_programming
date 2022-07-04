@@ -1,22 +1,30 @@
+#include <stdlib.h>
+
+#include <time.h>
+
 #include <stdio.h>
-/*
-*main - entry point
+
+
+
+/**
+*main - Task 1 print the last digit of the number stored in the variable n
 *
-*Return: always return 0
+*Return: 0
 */
+
 
 int main(void)
 {
-int i;
-for (i = 10; i < 20, i++)
+int ch;
+for (ch = 48; ch <= 57; ch++)
 {
-putchar (1 % 10) + '0');
-}
-if (1 != 19)
+putchar(ch);
+if (ch != 57)
 {
-putchar (',');
-putchar (' ');
+putchar(44);
+putchar(32);
 }
-putchar ('\n');
+}
+putchar(10);
 return (0);
 }
