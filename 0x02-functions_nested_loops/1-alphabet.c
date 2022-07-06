@@ -7,11 +7,11 @@
 
 int main(void)
 {
-char ch = 'a';
-while (ch <= 'z')
-{
-printf("%d\n", ch);
-c++
+char ch;
+for (ch = 'a'; ch <= 'z')
+ch++;
+putchar(ch);
+putchar('\n');
 }
 return (0);
 }
