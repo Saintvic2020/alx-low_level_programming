@@ -5,7 +5,7 @@
 * Return: always return 0
 */
 
-int main(void)
+int _putchar(char c)
 {
 char ch;
 for (ch = 'a'; ch <= 'z')
