@@ -5,11 +5,12 @@
 * Return: always return 0
 */
 
-int _putchar(char c)
+int main(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z')
 ch++;
+{
 putchar(ch);
 putchar('\n');
 }
