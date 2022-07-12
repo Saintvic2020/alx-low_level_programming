@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-* main - check the code 
+* reset_to_98 - updates the value of a pointer to 98
 *
-* Return: Always 0.
+* @n: input to update to 98
 */
 
-void reset_to_98 (int *n)
+void reset_to_98(int *n)
 {
-		n = 98;
+*n = 98;
 }
