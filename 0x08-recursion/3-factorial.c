@@ -1,18 +1,21 @@
 #include "main.h"
 
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- * @x: value to raise
- * @y: power
+ * factorial - function that returns the factorial of a given number.
  *
- * Return: result of the power
+ * @n: given number
+ * Return: the factorial
  */
 
-int _pow_recursion(int x, int y)
+int factorial(int n)
 {
-	if (y < 0)
-		return (-1);
-	if (y == 0)
-		return (1);
-	return (x * _pow_recursion(x, y - 1));
+if (n < 0)
+{
+return (-1);
+}
+else if (n == 0)
+{
+return (1);
+}
+return (n * factorial(n - 1));
 }
